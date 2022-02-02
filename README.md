@@ -40,11 +40,11 @@ GENERATING TOKENS:
 
  
 
-	STORING THE TOKENS IN LOCAL STORAGE:
+STORING THE TOKENS IN LOCAL STORAGE:
 1.	We store the token in the Local storage while subscribing to the login and registration service.
  
 
-	INTERCEPTING AND VERIFYING THE TOKEN:
+INTERCEPTING AND VERIFYING THE TOKEN:
 1.	We create a token-interceptor service that implements the HttpInterceptor module.
 2.	Now, we clone the request and set the header: (authorization, intercepted token) and call the next method.
 
