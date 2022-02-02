@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signupUsers": [
+    {
+      "type": "basic",
+      "username": "saiom",
+      "email": "saiompal13@gmail.com",
+      "password": "saiompal",
+      "confirmpassword": "saiompal",
+      "id": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
